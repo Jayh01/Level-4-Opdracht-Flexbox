@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="discription" content="Dit is een honden website" />
+		<meta name="robots" content="index,follow" />
+		<meta name="viewport" content="width=device-width initial-scale=1" />
+		<link rel="stylesheet" content="text/css" href="css/top-nav-header.css" />
+		<link rel="stylesheet" content="text/css" href="css/heading" />
+		<link rel="stylesheet" content="text/css" href="css/main-page.css" />
+		<link rel="stylesheet" content="text/css" href="css/footer" />
+		<link rel="stylesheet" content="text/css" href="css/site-body" />
+		<link rel="stylesheet" content="text/css" href="css/contact.css" />
+		<link rel="stylesheet" content="text/css" href="css/blog.css"/>  
+	</head>
+
+	<body>
+		<header id="top-header-container-home">
+			<nav class="site-top-header-nav-home-page">
+				<ul>
+					<li><a href="home-page.html">Home</a></li>
+					<li>
+						<a class="active-contact-page" href="contact.html">Recept</a>
+					</li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+			</nav>
+		</header>
+		<heading>
+			<h1>Uw Recept</h1>
+			<h3>Vul hier uw onder recept in</h3>
+		</heading>
+
+		<form name="contact" method="POST" data-netlify="true">
+			<p class="formelier-lijst">
+				<label>Naam: <input type="text" name="Naam:[]" id="naam" required></label>
+			</p>
+			<p class="formelier-lijst">
+				<label>Email: <input type="email" name="Email:[]" id="email" required/></label>
+			</p>
+			<p class="formelier-lijst">
+				<lebel>Telefoon Nummer: <input type="tel" name="Telefoonnummer:[]"/></lebel>
+			</p>
+			<p class="formelier-lijst">
+				<lebel>Leeftijd: <input type="number" name="leeftijd:[]"/></lebel>
+			</p>
+			<p class="formelier-lijst">
+				<lebel>Geboortedatum: <input type="date" name="GeboorteDatum:[]" min="2015" max="2018"/></lebel>
+			</p>
+			<p class="formelier-lijst">
+				<lebel
+					>Geslacht: <lebel>Man<input type="radio" name="Geslacht" id="man" value="man"/></lebel
+				></lebel>
+				<label>Vrouw<input type="radio" name="Geslacht" id="vrouw" value="vrouw"/></label>
+			</p>
+			<p class="formelier-lijst">
+				<lebel
+					>Favoriete cuisine: <lebel>Frans<input type="checkbox" name="Frans1:[]"/></lebel
+				></lebel>
+				<lebel>Italiaans<input type="checkbox" name="Italiaans2:[]"/></lebel>
+				<lebel>Spaans <input type="checkbox" name="Spaans3:[]"/></lebel>
+				<lebel>Arabisch <input type="checkbox" name="Arabisch4:[]"/></lebel>
+			</p>
+			<p class="formelier-lijst">
+				<lebel>Favoriete Kleur: <input type="color" name="kleur"/></lebel>
+			</p>
+			<p class="formelier-lijst">
+				<lebel
+					>Biografie: <textarea name="BiografieBericht:[]"></textarea>
+				</lebel>
+			</p>
+			<p class="formelier-lijst">
+				<lebel>Upload uw laatste recept: <input type="file" name="Bestand-GeUpload"/></lebel>
+			</p>
+        <p class="formelier-lijst">
+          <lebel>Uw website link: <input type="url" name="Website-Urls:[]"></lebel>
+          </p>
+          <p class="formelier-lijst">
+            <lebel>Wis alles: <input type="reset"></lebel>
+            </p>
+            <p class="formelier-lijst">
+              <button type="submit">Verzenden</butten>
+              </p>
+
+		</form>
+
+		<footer>
+      
+
+    </footer>
+	</body>
+</html>

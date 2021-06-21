@@ -1,0 +1,40 @@
+/*Container van de foto van honden*/
+.blog-post { 
+    display: flex;
+    
+    height:500px ;
+    border: 1px solid black;
+    padding: 10px ;
+}
+/*Container van de foto van honden*/
+
+/*Foto van de honden*/
+.hond-1{
+    width: 300px;
+    border: 1px solid black; 
+    flex-grow: 1;
+    margin: 10px; 
+}  
+.hond-2{
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: self;
+}
+.hond-3{
+    width: 300px;
+    border: 1px solid black; 
+    margin: 10px;
+}
+.hond-4{
+    width: 300px;
+    border: 1px solid black; 
+    margin: 10px;
+    flex-grow: 1;
+}
+.hond-5{
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+}
+/*Einde Foto van de honden*/
